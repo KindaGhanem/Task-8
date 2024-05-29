@@ -1,4 +1,7 @@
 import './Service.css'
+import img4 from './../../img/brandingOrange.png' ;
+import img5 from './../../img/markiting.png';
+
 
 export default function Service () {
 
@@ -22,7 +25,7 @@ export default function Service () {
         </ul>
         <h5>We walk with you from A to Z</h5>
       </div>
-      <img src='./src/assets/img/brandingOrange.png' alt='branding-image' width='150'></img>
+      <img src= {img4} alt='branding-image' width='150'></img>
     </div>
   </div>
   <div className='cards'>
@@ -42,12 +45,12 @@ export default function Service () {
           <li>E-mail marketing.</li>
         </ul>
       </div>
-      <img src='./src/assets/img/markiting.png' alt='branding-image' width='150'></img>
+      <img src = {img5} alt='branding-image' width='150'></img>
     </div>
   </div>
 </div>
-
 </section>
+
     )
 
 }

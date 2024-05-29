@@ -5,6 +5,7 @@ import { faInstagramSquare} from '@fortawesome/free-brands-svg-icons'
 import { faBehanceSquare} from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { faSquareXTwitter} from '@fortawesome/free-brands-svg-icons'
+import img6 from './../../img/logo.png'
 
 
 export default function Footer(){
@@ -13,7 +14,7 @@ export default function Footer(){
 <footer className='footer'>
 <div  className='footer-first'>
   <div>
-    <img src='./src/assets/img/logo.png' alt=''></img>
+    <img src= {img6} alt='footer-image'></img>
     <h2>Head Office</h2>
     <p>Syria-Lattakia-CRH2+HJX 35.51995118</p>
     <p className='copy'>© 2021 - 2023 focal X L.L.C All Right Reserved</p>

@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBars} from '@fortawesome/free-solid-svg-icons'
+import img1 from './../../img/logo.svg';
+
 
 export default function Navbar ()
 {
@@ -23,7 +25,7 @@ export default function Navbar ()
     return(
         <nav className= {Color ? 'navbar navbar-change-color' : 'navbar'}>
           <div className='left-part'>
-            <img src='./src/assets/img/logo.svg' alt='logo'></img>
+            <img src= {img1} alt='logo'></img>
             <h3>Digital marketing agency</h3>
           </div>
           <div>
