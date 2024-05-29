@@ -43,10 +43,11 @@
   border-radius: 50%;
 }
 
-
+ 
 
 
 @media (min-width:330px) and (max-width:739px){
+
 
 
   .copy {
@@ -54,7 +55,19 @@
   }
   .footer-first div{
     text-align: center;
+    font-size: 18px;
 
+  }
+  .footer-first div img{
+    width: 200px;
+
+  }
+  .footer-right div{
+    font-size: 18px !important;
+  }
+
+  .social-footer .icon-footer{
+    font-size: 30px !important;
   }
 
 

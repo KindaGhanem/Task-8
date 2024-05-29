@@ -5,7 +5,7 @@ import img5 from './../../img/markiting.png';
 
 export default function Service () {
 
-    return (
+    return ( 
 
 <section id='services'>
 <h1 className='service-title'>Our services</h1>

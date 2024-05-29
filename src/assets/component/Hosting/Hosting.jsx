@@ -55,7 +55,7 @@ return (
     <button>3 Gifts per/mo for year</button>
   </div>
   <div className='basic' id='enterprise'>
-    <h2>Enterprise</h2>
+    <h2>Enterprise</h2> 
     <p>for very small businesses and freelancers</p>
     <div className='discount'>
       <h2>$12/mo</h2> 

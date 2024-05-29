@@ -14,7 +14,7 @@ export default function Navbar ()
     if (window.scrollY >= 80) {
       setColor(true)
     }
-    else{
+    else{ 
       setColor(false)
     }
   }
