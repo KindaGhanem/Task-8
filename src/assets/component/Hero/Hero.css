@@ -16,7 +16,7 @@
   }
   .hero p{
     width: 500px;
-    margin-top: 20px;
+    margin-top: 9px;
     font-size: 23px;
   }
   .img-hero1{
@@ -28,7 +28,7 @@
   }
   .img-hero2{
     position: absolute;
-    right:-400px;
+    right:-420px;
     bottom: 80px;
   }
   .wave{
@@ -81,8 +81,6 @@
       font: 15px !important;
     }
 
-    
-
   }
   @media (min-width:700px) and (max-width:899px){
     .hero h1{
@@ -111,14 +109,14 @@
       bottom: 10px;
     }
     .hero .hero-content h1{
-      font-size: 20px !important;
+      font-size: 25px !important;
     }
     .hero .hero-content p{
-      font-size: 15px !important;
+      font-size: 18px !important;
       width: 310px;
     }
     .paragraph{
-      font-size: 15px !important;
+      font-size: 17px !important;
     }
   }
 
