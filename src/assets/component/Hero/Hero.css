@@ -1,0 +1,164 @@
+.title{
+    color: #ff8500;
+    font-size: 27px;
+  }
+  .hero{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-content{
+    margin: 0 0 100px 30px;
+  }
+  .hero p{
+    width: 500px;
+    margin-top: 20px;
+    font-size: 23px;
+  }
+  .img-hero1{
+    width: 450px;
+    position: absolute;
+    z-index: 3;
+    right: 30px;
+    top: 100px;
+  }
+  .img-hero2{
+    position: absolute;
+    right:-400px;
+    top: 0;
+  }
+  .wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .paragraph{
+    width: max-content !important;
+    color: rgb(255, 252, 252);
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    font-size: 23px !important;
+    right: 10px;
+  }
+  .social{
+    position: absolute;
+    left: 0px;
+    color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: white;
+    left: 5px;
+
+  }
+  .social .icon{
+    margin: 5px;
+    border-radius: 50%;
+
+
+  }
+
+
+  @media (min-width:900px) and (max-width:1200px){
+    .img-hero1{
+      width: 380px;
+
+    }
+    .hero p{
+      font-size: 20px;
+    }
+
+    .paragraph{
+      font: 15px !important;
+    }
+
+    
+
+  }
+  @media (min-width:700px) and (max-width:899px){
+    .hero h1{
+      font-size: 20px;
+    }
+    .hero p{
+      font-size: 18px;
+    }
+    .img-hero1{
+      width: 259px;
+      top: 230px;
+    }
+    .img-hero2{
+      top: 150px;
+    }
+    .paragraph{
+      font-size: 15px !important;
+    }
+
+
+  }
+  @media (min-width:460px) and (max-width:699px){
+    .img-hero1{
+      width: 210px;
+      top: 280px;
+
+    }
+    .img-hero2{
+      top: 150px;
+    }
+    .hero .hero-content h1{
+      font-size: 20px !important;
+    }
+    .hero .hero-content p{
+      font-size: 15px !important;
+      width: 310px;
+
+    }
+
+    .paragraph{
+      font-size: 15px !important;
+
+    }
+  }
+
+
+
+
+    
+    @media (min-width:330px) and (max-width:459px){
+
+      .img-hero1{
+        width: 190px;
+        top: 310px;
+      }
+      .img-hero2{
+        top: 200px;
+      }
+      .hero .hero-content h1{
+        margin-top: 25px;
+        font-size: 20px !important;
+      }
+      .hero .hero-content p{
+        font-size: 16px !important;
+        width: 310px;
+      }
+  
+      .paragraph{
+        font-size: 15px !important;
+        bottom: 25px;
+        right: 30px;
+        
+  
+      }
+      .social{
+        font-size: 15px;
+        left: 100px;
+    
+      }
+      }
+

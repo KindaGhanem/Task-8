@@ -1,0 +1,138 @@
+.navbar{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  position: fixed;
+  z-index: 9;
+  /* background-color: white; */
+}
+.navbar-change-color{
+  background-color: #ff8500;
+
+}
+.left-part{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-part h3{
+  margin: 20px;
+  font-size: 19px;
+  
+}
+.left-part h4{
+  color: #938c8c;
+}
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li{
+  list-style-type: none;
+  margin: 10px;
+
+}
+.navbar ul li a{
+  color: #938c8c ;
+  position: relative;
+  text-decoration: none;
+  cursor:grab ;
+  display: block;
+
+  
+}
+
+.navbar ul li a:hover{
+  color: black !important;
+}
+.navbar ul li a:focus::after{
+  content: " ";
+  width: 30px ;
+  height: 2px;
+  background-color: #030303 ;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  display: block;
+}
+.navbar ul li a:hover::after{
+  content: " ";
+  width: 30px ;
+  height: 2px;
+  background-color: #000000 ;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  display: block;
+}
+
+.bars{
+  display: none;
+  font-size: 30px;
+}
+
+
+@media (min-width:740px) and (max-width:949px){
+
+.bars{
+  display: block;
+}
+.navbar ul{
+  transition: 1s;
+  transform: translateY(-500%);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  background-color: white;
+
+}
+.navbar ul.open{
+  transition: 1s;
+  transform: translateY(0%);
+}
+.navbar ul li a{
+  margin: 5px;
+ }
+ 
+}
+
+
+@media (min-width:330px) and (max-width:739px){
+
+  .bars{
+    display: block;
+  }
+  .navbar ul{
+    transition: 1s;
+    transform: translateY(-500%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    background-color: white;
+
+    
+  
+  }
+  .navbar ul.open{
+    transition: 1s;
+    transform: translateY(0%);
+  }
+  .navbar ul li a{
+   margin: 5px;
+  }
+
+
+
+
+
+}

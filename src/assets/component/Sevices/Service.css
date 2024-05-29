@@ -1,0 +1,86 @@
+
+.our-Services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .service-title{
+    width: max-content;
+    margin: auto; 
+    font-size: 40px;
+    padding: 30px;
+  }
+  .cards{
+    background-color: white;
+    box-shadow: 3px 3px 5px 10px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+  }
+  .h-brand{
+    position: relative;
+    margin: 10px;
+    font-size: 20px;
+  }
+  .h-brand::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ff8500 ;
+    bottom: -5px;
+    left: 2px;
+  
+  }
+  .cards p{
+    margin: 5px;
+    max-width: 500px;
+  }
+  .cards h5{
+    font-size: 20px;
+  }
+  .card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-list{
+    padding: 5px;
+  } 
+  .card-list li{
+    list-style-type: none;
+    color: #8f8989;
+  }
+  
+  .h-market{
+    position: relative;
+    margin: 10px;
+    font-size: 20px;
+  
+  }
+  .h-market::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #a513ff ;
+    bottom: -5px;
+    left: 2px;
+  }
+  
+  
+  @media (min-width:330px) and (max-width:699px){
+
+    .card-info img{
+      width: 130px !important;
+    }
+    .card-info h5{
+      font-size: 12px !important;
+
+    }
+
+  }
+
+

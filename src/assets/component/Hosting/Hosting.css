@@ -1,0 +1,107 @@
+
+.host-title{
+    width: max-content;
+    margin: auto;
+    color: white;
+    padding: 20px;
+  }
+  .host-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+  
+  } 
+  .sec-host{
+      background-color: #282828;
+  }
+  #host-basic p{
+  margin-bottom: 25px;
+  } 
+
+  .basic{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border-top: 20px solid #ff8500;
+    margin: 10px;
+    height: 350px;
+  }
+  .basic h2{
+    font-size: 20px;
+  
+  }
+  .basic ul li {
+    list-style-type: none;
+  }
+
+  .basic button{
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid  #ff8500;
+    color:  #ff8500 ;
+    background-color: white;
+  }
+  .support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .support p{
+    color: white;
+    padding: 40px;
+    width: 700px;
+    text-align: center;
+  }
+  .discount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 260px;
+  }
+  .discount p {
+    width: 150px !important;
+  }
+  #pro{
+    border-top: 20px solid #a513ff !important;
+  }
+  #pro p{
+    width: 260px;
+    margin-bottom: 10px;
+
+  }
+  #pro button {
+    border: 1px solid  #a513ff !important;
+    color:  #a513ff !important;
+  }
+   
+  #business{
+    border-top: 20px solid #13ff1f !important;
+
+  }
+  #business p{
+    width: 260px;
+    margin-bottom: 10px;
+  }
+  #business button {
+    border: 1px solid  #13ff1f !important;
+    color:  #13ff1f !important;
+
+  }
+  #enterprise{
+    border-top: 20px solid #4613ff !important;
+
+  }
+  #enterprise p{
+    width: 260px;
+
+  }
+  
+  #enterprise button {
+    border: 1px solid  #4613ff !important;
+    color:  #4613ff !important;
+
+  }
