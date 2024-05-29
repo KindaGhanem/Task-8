@@ -7,6 +7,7 @@ import { faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { faSquareXTwitter} from '@fortawesome/free-brands-svg-icons'
 import img2 from './../../img/gamefor-mobile.png';
 import img3 from './../../img/brandingpattren.png' ;
+import img9 from './../../img/footer-mobile.png' ;
 
 
 
@@ -25,7 +26,7 @@ export default function Hero (){
             <img src= {img3} alt='img-hero2' className='img-hero2'></img>
         </div>
         <div>
-            <svg className='wave' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff8500" fill-opacity="1" d="M0,64L80,74.7C160,85,320,107,480,112C640,117,800,107,960,96C1120,85,1280,75,1360,69.3L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+            <img src= {img9} alt='wave' className='wave'></img>
             <div className='social'>
                 <FontAwesomeIcon icon={faSquareXTwitter} className='icon'/>
                 <FontAwesomeIcon icon={faInstagramSquare} className='icon'/>
