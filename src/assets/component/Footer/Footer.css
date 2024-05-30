@@ -34,20 +34,19 @@
   display: flex;
   justify-content: center; 
   align-items: center;
-  font-size: 25px;
   color: white;
 
 }
 .social-footer .icon-footer{
   margin: 5px;
   border-radius: 50%;
+  font-size: 25px;
 }
 
  
 
 
 @media (min-width:330px) and (max-width:739px){
-
 
 
   .copy {

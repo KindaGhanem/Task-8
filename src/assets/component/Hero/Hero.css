@@ -1,3 +1,4 @@
+
 .title{
     color: #ff8500;
     font-size: 27px;
@@ -135,17 +136,17 @@
       }
       .hero .hero-content h1{
         margin-top: 30px;
-        font-size: 25px !important;
+        font-size: 22px !important;
       }
       .hero .hero-content p{
-        font-size: 20px !important;
+        font-size: 17px !important;
         width: 310px;
       }
   
       .paragraph{
-        font-size: 16px !important;
+        font-size: 15px !important;
         bottom: 25px;
-        right: 30px;
+        right: 10px;
         
   
       }

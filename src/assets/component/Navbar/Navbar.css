@@ -7,12 +7,10 @@
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.05);
   padding: 20px;
   position: fixed;
-  z-index: 9;
-  /* background-color: white; */
+  z-index: 9
 }
 .navbar-change-color{
   background-color: #ff8500;
-
 }
 .left-part{
   display: flex;
@@ -130,7 +128,9 @@
   .navbar ul li a{
    margin: 5px;
   }
-
+  .navbar h3{
+    font-size: 15px;
+  }
 
 
 
