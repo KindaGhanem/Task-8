@@ -8,3 +8,34 @@
   font-family:  "Roboto Condensed", sans-serif;
 }
 
+.padding-main{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+
+@media (min-width:1500px){
+.BigScreen{
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+}
+
+
+
+@media (max-width:992px){
+  .padding-main{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}
+@media (max-width:552px){
+  .padding-main{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}

@@ -11,7 +11,7 @@ import img6 from './../../img/logo.png'
 export default function Footer(){
     return(
 
-<footer className='footer'>
+<footer className='footer padding-main'>
 <div  className='footer-first'>
   <div>
     <img src= {img6} alt='footer-image'></img>

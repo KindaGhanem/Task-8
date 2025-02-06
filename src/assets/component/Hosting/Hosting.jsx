@@ -3,7 +3,7 @@ import './Hosting.css'
 export default function Hosting () {
 return (
 
-<section className='sec-host'>
+<section className='sec-host padding-main'>
 <h1 className='host-title'>Hosting Pricing</h1>
 <div className='host-card'>
   <div className='basic' id='host-basic'>

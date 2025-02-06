@@ -23,7 +23,7 @@ export default function Navbar ()
 
 
     return(
-        <nav className= {Color ? 'navbar navbar-change-color' : 'navbar'}>
+        <nav className= {Color ? 'navbar navbar-change-color padding-main ' : 'navbar padding-main'}>
           <div className='left-part'>
             <img src= {img1} alt='logo'></img>
             <h3>Digital marketing agency</h3>

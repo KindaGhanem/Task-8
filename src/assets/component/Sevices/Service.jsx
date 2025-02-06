@@ -7,7 +7,7 @@ export default function Service () {
 
     return ( 
 
-<section id='services'>
+<section id='services' className='padding-main'>
 <h1 className='service-title'>Our services</h1>
 <div  className='our-Services'>
   <div className='cards'>
